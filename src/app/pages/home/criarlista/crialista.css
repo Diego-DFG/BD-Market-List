@@ -1,0 +1,50 @@
+.crialista {
+    padding: 1rem 0;
+}
+
+.crialista_container div {
+    display: flex;
+    padding: 0 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulolista {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid var(--azul-escuro);
+}
+
+.crialista form {
+    display: none;
+}
+
+.crialista form input {
+    border: 1px solid rgba(0,0,0,0.09);
+    border-radius: 5px;
+}
+
+.crialista_container {
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.02);
+}
+
+.crialista form button {
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    color: var(--branco);
+    border: none;
+    background-color: var(--azul-escuro);
+}
+
+.crialista form button:hover {
+    transition: 500ms;
+    background: var(--azul-claro);
+}
+

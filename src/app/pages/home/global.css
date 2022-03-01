@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oxygen:wght@300&family=Poppins&display=swap');
+
+:root {
+
+    --branco: #ffffff;
+    --preto: #000000;
+    --verde: #519259;
+    --roxo: #573391;
+    --vermelho: #FF1700;
+    --azul-claro: #00B4D8;
+    --azul-escuro: #085E7D;
+
+    --fonte-padrao: 'Poppins', sans-serif;
+
+}
+
+* {
+    font-family: var(--fonte-padrao);
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.width_padrao {
+    margin: 2rem auto;
+    max-width: 1024px;
+}
+
+.btn {
+    font-size: 10px;
+    padding: 0.1rem 0.5rem;
+    color: var(--branco);
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-deletar {
+    background-color: var(--vermelho);
+}
+
+.btn-retornar {
+    background-color: var(--azul-claro);
+
+}
+
+.botoes div {
+    margin-top: 2rem;
+}
+
+.verde {
+    background-color: var(--verde);
+}
+
+.vermelho {
+    background-color: var(--vermelho);
+}
+
+.body .tabela_cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body .tabela_cabecalho div {
+    font-size: 20px;
+}
+
+.arrayImgRender {
+    width: 50px;
+    border-radius: 2px;
+}
+
+.div_btn {
+    max-height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .btn {
+        font-size: 16px;
+    }
+
+    .arrayImgRender {
+        width: 100px;
+        border-radius: 2px;
+    }
+}
+
+
+
+

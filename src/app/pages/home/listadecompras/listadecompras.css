@@ -1,0 +1,34 @@
+.listadecompras {
+    padding: 1rem 0;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.02);
+}
+
+.listadecompras_container {
+    height: 100%;
+    display: none;
+}
+
+.body .tabela_cabecalho div, .body .tabela_conteudo div {
+    color: #000000;
+    padding: 0.5rem;
+}
+
+.body .tabela_conteudo-div div {
+    display: flex;
+    font-size: 12px;
+}
+
+.body .tabela_conteudo-div .linha_tabela {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,0.09);
+}
+
+@media screen and (min-width: 768px) {
+    .body .tabela_conteudo-div div {
+        display: flex;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,90 @@
+
+:root {
+
+    --branco: #ffffff;
+    --preto: #000000;
+    --verde: #519259;
+    --vermelho: #FF1700;
+    --azul-claro: #00B4D8;
+    --azul-escuro: #085E7D;
+
+    --fonte-padrao: 'Poppins', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.width_padrao {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.login {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    color: var(--azul-escuro);
+    justify-content: center;
+    font-family: var(--fonte-padrao);
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.login_container {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.login_container form {
+    margin-top: 1rem;
+}
+
+.login img {
+    width: 200px;
+    padding: 1rem 0rem;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.login h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+form input {
+    border: none;
+    border-radius: 2px;
+}
+
+form button {
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 0.5rem 0;
+    color: var(--azul-escuro);
+    background-color: var(--branco);
+}
+
+#senha_incorreta {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .login_container {
+        width: 400px;
+    }
+}
