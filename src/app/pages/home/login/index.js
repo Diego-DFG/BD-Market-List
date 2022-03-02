@@ -32,6 +32,7 @@ async function fazerLogin(e) {
       body: JSON.stringify({ usuario: userName, email: email, senha: passWord}),
     });
     if(res.ok) {
+      console.log('Teste');
       console.log(res);
       window.location = 'http://localhost:8080/principal';
     }
