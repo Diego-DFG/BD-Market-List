@@ -34,10 +34,6 @@ async function fazerLogin(e) {
     if(res.ok) {
       console.log(res);
       window.location = 'http://localhost:8080/principal';
-      /*if (res.status == "401") {
-        getUrl("http://localhost/app/login.html");
-      }
-      */
     }
   }
 
@@ -58,21 +54,21 @@ function limpaErros() {
                 <form onSubmit={(e)=> fazerLogin(e)} >
                     <div>
                         <label>Login:</label>
-                        <input type='text' class="inputUsuario" onChange={(e)=> setUserName(e.target.value)} />
+                        <input type='text' className="inputUsuario" onChange={(e)=> setUserName(e.target.value)} />
                     </div>
                     <div>
                         <label>Email:</label>
-                        <input type='mail' class="inputEmail" onChange={(e)=> setEmail(e.target.value)} />
+                        <input type='mail' className="inputEmail" onChange={(e)=> setEmail(e.target.value)} />
                     </div>
                     <div>
                         <label>Senha:</label>
-                        <input type='password' class="inputSenha" onChange={(e)=> setPassWord(e.target.value)} />
+                        <input type='password' className="inputSenha" onChange={(e)=> setPassWord(e.target.value)} />
+                    </div>
+                    <div className='senha_incorreta'>
+                        <p>Usuário ou senha incorretos!</p>
                     </div>
                     <div>
                         <button type='submit'>Entrar</button>
-                    </div>
-                    <div id="senha_incorreta">
-                        <p>Usuário ou senha incorretos!</p>
                     </div>
                 </form>
             </div>

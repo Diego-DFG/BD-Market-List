@@ -1,3 +1,7 @@
+header {
+    display: flex;
+    position: relative;
+}
 .navbar {
     color: var(--azul-escuro);
     background: rgba(0, 0, 0, 0.05);
@@ -15,6 +19,7 @@
 }
 
 .navbar img {
+    cursor: pointer;
     width: 100px;
     padding: 1rem;
     border-radius: 50%;
@@ -23,4 +28,27 @@
 .navbar h1 {
     text-align: center;
     font-size: 36px;
+}
+
+.btn-sair button {
+    top: 40px;
+    border: none;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 5px;
+    color: var(--branco);
+    padding: 0.5rem 1rem;
+    background-color: var(--azul-escuro);
+}
+
+.btn-sair button:hover {
+    background-color: var(--azul-claro);
+}
+
+@media screen and (min-width: 768px) {
+    .btn-sair button {
+        right: 100px;
+    }
 }

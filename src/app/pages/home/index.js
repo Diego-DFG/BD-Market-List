@@ -50,7 +50,13 @@ export default function Home() {
 
     function retornarItens() {
 
-        fetch('http://localhost:3000/')
+        fetch('http://localhost:3000/', {
+            method: "GET",
+            headers: {
+            "Content-Type": "application/json",
+            },
+            credentials: "include"
+        })
         .then(res => {
             if(res.ok) return res.json();
             return console.log(res);
@@ -60,7 +66,6 @@ export default function Home() {
                 if(dados.length <=0) {
                     dados.map((dados)=> {
                         arrayDados.push(dados);
-                        console.log(arrayDados);
                     })
                 } else {
                     dados.map((dado)=> {
@@ -75,8 +80,6 @@ export default function Home() {
                 }
 
                 arrayDados.forEach((dado)=> {
-
-                    console.log(dado.id);
 
                     const tabela_conteudo_div = document.querySelector('.tabela_conteudo-div');
        
@@ -110,8 +113,6 @@ export default function Home() {
                     } else if(dado.produto == 'Arroz') {
                         arrayImg.push(arroz);
                     }
-
-                     console.log(arrayImg[0]);
  
                      let renderTabela = `
                      <div class=linha_tabela>

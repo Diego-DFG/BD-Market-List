@@ -66,11 +66,11 @@ async function criaLista() {
                 >Cadastro de produtos</h1>
                 <form>
                     <div className='produto_container'>
-                        <label for="produto">Produto</label>
+                        <label>Produto</label>
                         <input type="text" className='form_produto' />
                     </div>
                     <div className='quantidade_container'>
-                        <label for="quantidade">Quantidade</label>
+                        <label>Quantidade</label>
                         <input type="text" className='form_quantidade' />
                     </div>
                     <button 
