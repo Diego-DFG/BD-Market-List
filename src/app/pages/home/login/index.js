@@ -17,11 +17,18 @@ async function fazerLogin(e) {
   console.log(passWord);
 
   let res = await fetch("http://localhost:3000/usuarios", {
-    method: "GET"
+    method: "GET",
+    headers: {
+      'Access-Control-Allow-Origin': true ,
+    }
   });
   if(res.ok) {
       let res = await fetch("http://localhost:3000/auth", {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        'Access-Control-Allow-Origin': true
+      },
       credentials: "include",
       body: JSON.stringify({ usuario: userName, email: email, senha: passWord}),
     });
@@ -37,6 +44,12 @@ async function fazerLogin(e) {
       
   }
 
+}
+
+
+
+function limpaErros() {
+  document.getElementById("senha_incorreta").style.display = "none";
 }
 
 
