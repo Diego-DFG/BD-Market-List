@@ -32,11 +32,13 @@ async function fazerLogin(e) {
       body: JSON.stringify({ usuario: userName, email: email, senha: passWord}),
     });
     if(res.ok) {
-      console.log('teste');
-      console.log('Teste');
       console.log(res);
       window.location = 'http://localhost:8080/principal';
+    } else {
+      const usuarioSenhaIncorreta = document.querySelector('.senha_incorreta');
+      usuarioSenhaIncorreta.style.display = "block";
     }
+      
   }
 
 }
@@ -58,7 +60,7 @@ function limpaErros() {
                         <label>Login:</label>
                         <input type='text' className="inputUsuario" onChange={(e)=> setUserName(e.target.value)} />
                     </div>
-                    <div>
+                    <div className='email_container'>
                         <label>Email:</label>
                         <input type='mail' className="inputEmail" onChange={(e)=> setEmail(e.target.value)} />
                     </div>

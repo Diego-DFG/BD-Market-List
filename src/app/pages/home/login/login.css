@@ -58,6 +58,9 @@
     text-align: center;
 }
 
+form {
+    margin: 0 auto;
+}
 
 form div {
     display: flex;
@@ -79,6 +82,10 @@ form button {
     padding: 0.5rem 0;
     color: var(--azul-escuro);
     background-color: var(--branco);
+}
+
+.email_container {
+    display: none;
 }
 
 .senha_incorreta {
