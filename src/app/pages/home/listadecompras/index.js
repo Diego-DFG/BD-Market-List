@@ -21,7 +21,7 @@ export default function ListaDeCompras({mostraFormulario}) {
             body: JSON.stringify({id: event.target.id}),
         });
         if (res.ok) {
-            window.location = "http://localhost:8080/principal";
+            window.location = "https://diego-dfg.github.io/BD-Market-List/#/principal";
     
           }
 

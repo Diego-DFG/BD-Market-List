@@ -7,7 +7,7 @@ import img_00 from '../../../../img/img_00.jpeg';
 export default function Navbar() {
 
     function recarregaPagina() {
-        window.location = "http://localhost:8080/principal";
+        window.location = "https://diego-dfg.github.io/BD-Market-List/#/principal";
     }
 
     function sair() {

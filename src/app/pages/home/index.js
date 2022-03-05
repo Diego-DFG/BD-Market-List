@@ -151,7 +151,10 @@ export default function Home() {
 
         fetch('http://localhost:3000/', {
             method: "GET",
-            credentials: "include"
+            credentials: "include",
+            headers: {
+                "Content-Type": "application/json",
+            },
         })
         .then(res => {
             if(res.ok) return res.json();
