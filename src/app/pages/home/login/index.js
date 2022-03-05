@@ -35,7 +35,7 @@ async function fazerLogin(e) {
       console.log(res);
       const url = 'https://bd-market-list.vercel.app/#/principal'
       console.log(url);
-      //window.location = url;
+      window.location = url;
     } else {
       const usuarioSenhaIncorreta = document.querySelector('.senha_incorreta');
       usuarioSenhaIncorreta.style.display = "block";
