@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0706f08f.css",
-    "main.js": "/static/js/main.bfc4a99b.js",
+    "main.js": "/static/js/main.547c4169.js",
     "static/media/img_00.jpeg": "/static/media/img_00.ee14129c29c0796bdec6.jpeg",
     "static/media/creme_dental.jpeg": "/static/media/creme_dental.1022f35839bbafae1856.jpeg",
     "static/media/acucar_refinado.jpeg": "/static/media/acucar_refinado.e9e8fe94cd780c086c84.jpeg",
@@ -12,10 +12,10 @@
     "static/media/filtro_papel.jpeg": "/static/media/filtro_papel.491d075adae3fadb2217.jpeg",
     "index.html": "/index.html",
     "main.0706f08f.css.map": "/static/css/main.0706f08f.css.map",
-    "main.bfc4a99b.js.map": "/static/js/main.bfc4a99b.js.map"
+    "main.547c4169.js.map": "/static/js/main.547c4169.js.map"
   },
   "entrypoints": [
     "static/css/main.0706f08f.css",
-    "static/js/main.bfc4a99b.js"
+    "static/js/main.547c4169.js"
   ]
 }
