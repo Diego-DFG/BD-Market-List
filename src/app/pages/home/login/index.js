@@ -33,7 +33,7 @@ async function fazerLogin(e) {
     });
     if(res.ok) {
       console.log(res);
-      window.location = 'http://localhost:8080/principal';
+      window.location = 'https://bd-market-list.vercel.app/#/principal';
     } else {
       const usuarioSenhaIncorreta = document.querySelector('.senha_incorreta');
       usuarioSenhaIncorreta.style.display = "block";
