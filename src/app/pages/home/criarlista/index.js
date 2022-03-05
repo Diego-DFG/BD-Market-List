@@ -30,10 +30,8 @@ async function criaLista() {
     body: JSON.stringify(objInputs),
   });
   if (res.ok) {
-    console.log(res);
-    const url = 'https://diego-dfg.github.io/BD-Market-List/#/principal'
-    console.log(url);
-    window.location = url;
+    
+    window.location = 'https://diego-dfg.github.io/BD-Market-List/#/principal';
   } 
   throw new Error(`HTTP error! status: ${res.status}`);
     }
