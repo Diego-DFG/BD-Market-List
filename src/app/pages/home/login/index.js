@@ -18,17 +18,11 @@ async function fazerLogin(e) {
 
   let res = await fetch("http://localhost:3000/usuarios", {
     method: "GET",
-    headers: {
-      'Access-Control-Allow-Origin': true ,
-    }
+    credentials: "include"
   });
   if(res.ok) {
       let res = await fetch("http://localhost:3000/auth", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        'Access-Control-Allow-Origin': true
-      },
       credentials: "include",
       body: JSON.stringify({ usuario: userName, email: email, senha: passWord}),
     });
