@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Diego-DFG/BD-Market-List.git/static/css/main.0706f08f.css",
-    "main.js": "/Diego-DFG/BD-Market-List.git/static/js/main.d1a10335.js",
+    "main.js": "/Diego-DFG/BD-Market-List.git/static/js/main.51d3989d.js",
     "static/media/img_00.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/img_00.ee14129c29c0796bdec6.jpeg",
     "static/media/creme_dental.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/creme_dental.1022f35839bbafae1856.jpeg",
     "static/media/acucar_refinado.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/acucar_refinado.e9e8fe94cd780c086c84.jpeg",
@@ -12,10 +12,10 @@
     "static/media/filtro_papel.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/filtro_papel.491d075adae3fadb2217.jpeg",
     "index.html": "/Diego-DFG/BD-Market-List.git/index.html",
     "main.0706f08f.css.map": "/Diego-DFG/BD-Market-List.git/static/css/main.0706f08f.css.map",
-    "main.d1a10335.js.map": "/Diego-DFG/BD-Market-List.git/static/js/main.d1a10335.js.map"
+    "main.51d3989d.js.map": "/Diego-DFG/BD-Market-List.git/static/js/main.51d3989d.js.map"
   },
   "entrypoints": [
     "static/css/main.0706f08f.css",
-    "static/js/main.d1a10335.js"
+    "static/js/main.51d3989d.js"
   ]
 }
