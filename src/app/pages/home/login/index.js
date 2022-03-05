@@ -16,7 +16,7 @@ async function fazerLogin(e) {
   console.log(userName);
   console.log(passWord);
 
-  /*let res = await fetch("http://localhost:3000/usuarios", {
+  let res = await fetch("http://localhost:3000/usuarios", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -41,7 +41,7 @@ async function fazerLogin(e) {
       usuarioSenhaIncorreta.style.display = "block";
     }
       
-  }*/
+  }
 
 }
 
