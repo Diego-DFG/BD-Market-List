@@ -30,11 +30,11 @@ async function criaLista() {
     body: JSON.stringify(objInputs),
   });
   if (res.ok) {
-    
     window.location.reload();
-  } 
-  throw new Error(`HTTP error! status: ${res.status}`);
-    }
+  } else {
+    throw new Error(`HTTP error! status: ${res.status}`);
+  }
+}
 
     const [alteraDisplay, setAlteraDisplay] = useState(false);
     function mostraFormulario() {
