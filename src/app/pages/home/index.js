@@ -133,7 +133,7 @@ export default function Home() {
         listadecompras.style.display = "none";
         mudaEstado = false;
 
-        window.location = 'http://localhost:8080/principal';
+        window.location = 'https://diego-dfg.github.io/BD-Market-List/#/principal';
 
       } else {
         listadecompras.style.display = "block";
@@ -151,9 +151,6 @@ export default function Home() {
 
         fetch('http://localhost:3000/', {
             method: "GET",
-            headers: {
-            "Content-Type": "application/json",
-            },
             credentials: "include"
         })
         .then(res => {

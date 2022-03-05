@@ -17,23 +17,17 @@ async function fazerLogin(e) {
   console.log(passWord);
 
   let res = await fetch("http://localhost:3000/usuarios", {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json",
-    }
+    method: "GET"
   });
   if(res.ok) {
       let res = await fetch("http://localhost:3000/auth", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
       credentials: "include",
       body: JSON.stringify({ usuario: userName, email: email, senha: passWord}),
     });
     if(res.ok) {
       console.log(res);
-      const url = 'https://bd-market-list.vercel.app/#/principal'
+      const url = 'https://diego-dfg.github.io/BD-Market-List/#/'
       console.log(url);
       window.location = url;
     } else {
@@ -43,12 +37,6 @@ async function fazerLogin(e) {
       
   }
 
-}
-
-
-
-function limpaErros() {
-  document.getElementById("senha_incorreta").style.display = "none";
 }
 
 
