@@ -33,7 +33,9 @@ async function fazerLogin(e) {
     });
     if(res.ok) {
       console.log(res);
-      window.location = 'https://bd-market-list.vercel.app/#/principal';
+      const url = 'https://bd-market-list.vercel.app/#/principal'
+      console.log(url);
+      //window.location = url;
     } else {
       const usuarioSenhaIncorreta = document.querySelector('.senha_incorreta');
       usuarioSenhaIncorreta.style.display = "block";
