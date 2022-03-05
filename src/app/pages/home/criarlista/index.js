@@ -31,7 +31,7 @@ async function criaLista() {
   });
   if (res.ok) {
     
-    window.location = 'https://diego-dfg.github.io/BD-Market-List/#/principal';
+    window.location.reload();
   } 
   throw new Error(`HTTP error! status: ${res.status}`);
     }
