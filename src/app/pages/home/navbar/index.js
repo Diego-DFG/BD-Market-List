@@ -17,7 +17,7 @@ export default function Navbar() {
             credentials: "include",
         });
 
-        window.location = "http://localhost:8080";
+        window.location = "https://diego-dfg.github.io/BD-Market-List/#/";
 
     }
 

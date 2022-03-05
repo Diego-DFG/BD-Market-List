@@ -18,17 +18,23 @@ async function fazerLogin(e) {
 
   let res = await fetch("http://localhost:3000/usuarios", {
     method: "GET",
-    credentials: "include"
+    credentials: "include",
+    headers: {
+      'Content-Type': 'application/json'
+  }
   });
   if(res.ok) {
       let res = await fetch("http://localhost:3000/auth", {
       method: "POST",
       credentials: "include",
+      headers: {
+        'Content-Type': 'application/json'
+    },
       body: JSON.stringify({ usuario: userName, email: email, senha: passWord}),
     });
     if(res.ok) {
       console.log(res);
-      const url = 'https://diego-dfg.github.io/BD-Market-List/#/'
+      const url = 'https://diego-dfg.github.io/BD-Market-List/#/principal'
       console.log(url);
       window.location = url;
     } else {
@@ -38,12 +44,6 @@ async function fazerLogin(e) {
       
   }
 
-}
-
-
-
-function limpaErros() {
-  document.getElementById("senha_incorreta").style.display = "none";
 }
 
 
