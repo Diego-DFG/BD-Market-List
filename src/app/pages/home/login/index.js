@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './login.css';
 
-import img_00 from '../../../../../img/img_00.jpeg';
+import img_00 from '../../../../img/img_00.jpeg';
 
 export default function Login() {
 
