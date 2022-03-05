@@ -21,8 +21,12 @@ export default function ListaDeCompras({mostraFormulario}) {
             body: JSON.stringify({id: event.target.id}),
         });
         if (res.ok) {
-            window.location = "https://diego-dfg.github.io/BD-Market-List/#/principal";
-    
+            console.log(res);
+            const url = 'https://diego-dfg.github.io/BD-Market-List/#/principal'
+            console.log(url);
+            window.location = url;
+          } else {
+            throw new Error(`HTTP error! status: ${res.status}`);
           }
 
           

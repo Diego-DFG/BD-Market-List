@@ -30,13 +30,11 @@ async function criaLista() {
     body: JSON.stringify(objInputs),
   });
   if (res.ok) {
-    console.log('Produto Cadastrado!');
-    window.location = 'http://localhost:8080/principal';
-    /*if (res.status == "401") {
-      getUrl("http://localhost/app/login.html");
-    }
-    */
-  }
+    console.log(res);
+    const url = 'https://diego-dfg.github.io/BD-Market-List/#/principal'
+    console.log(url);
+    window.location = url;
+  } 
   throw new Error(`HTTP error! status: ${res.status}`);
     }
 
