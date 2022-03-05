@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Diego-DFG/BD-Market-List.git/static/css/main.0706f08f.css",
+    "main.js": "/Diego-DFG/BD-Market-List.git/static/js/main.fc4de1d4.js",
+    "static/media/img_00.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/img_00.ee14129c29c0796bdec6.jpeg",
+    "static/media/creme_dental.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/creme_dental.1022f35839bbafae1856.jpeg",
+    "static/media/acucar_refinado.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/acucar_refinado.e9e8fe94cd780c086c84.jpeg",
+    "static/media/pao_italiano.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/pao_italiano.d4c844995ced84b38d94.jpeg",
+    "static/media/assa_facil.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/assa_facil.349962160fc1a025ed99.jpeg",
+    "static/media/sabonete.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/sabonete.cfdd9a3c65b5a6f40a57.jpeg",
+    "static/media/pizza.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/pizza.db89574d9fcde577a01c.jpeg",
+    "static/media/filtro_papel.jpeg": "/Diego-DFG/BD-Market-List.git/static/media/filtro_papel.491d075adae3fadb2217.jpeg",
+    "index.html": "/Diego-DFG/BD-Market-List.git/index.html",
+    "main.0706f08f.css.map": "/Diego-DFG/BD-Market-List.git/static/css/main.0706f08f.css.map",
+    "main.fc4de1d4.js.map": "/Diego-DFG/BD-Market-List.git/static/js/main.fc4de1d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0706f08f.css",
+    "static/js/main.fc4de1d4.js"
+  ]
+}
