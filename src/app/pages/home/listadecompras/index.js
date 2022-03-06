@@ -12,7 +12,7 @@ export default function ListaDeCompras({mostraFormulario}) {
           
         console.log(event.target.id);
 
-        let res = await fetch("http://localhost:3000/apaga", {
+        let res = await fetch("https://git.heroku.com/bdmarketlist.git/apaga", {
             method: "DELETE",
             headers: {
             "Content-Type": "application/json",

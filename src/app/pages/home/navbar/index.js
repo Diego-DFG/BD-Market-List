@@ -12,7 +12,7 @@ export default function Navbar() {
 
     function sair() {
 
-        fetch("http://localhost:3000/logout", {
+        fetch("https://git.heroku.com/bdmarketlist.git/logout", {
             method: "GET",
             credentials: "include",
         });

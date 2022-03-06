@@ -21,7 +21,7 @@ async function criaLista() {
   formQuantidade.value = '';
   formProduto.focus();
 
-  let res = await fetch("http://localhost:3000/cria", {
+  let res = await fetch("https://git.heroku.com/bdmarketlist.git/cria", {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
