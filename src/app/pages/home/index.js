@@ -133,7 +133,7 @@ export default function Home() {
         listadecompras.style.display = "none";
         mudaEstado = false;
 
-        window.location = 'https://diego-dfg.github.io/BD-Market-List/#/principal';
+        window.location.reload();
 
       } else {
         listadecompras.style.display = "block";
