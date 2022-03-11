@@ -22,10 +22,12 @@ async function criaLista() {
   formProduto.focus();
 
   let res = await fetch("https://git.heroku.com/bdmarketlist.git/cria", {
-    method: "PUT",
+    method: "OPTIONS",
     headers: {
       "origin": "https://diego-dfg.github.io/BD-Market-List/#/",
-      "Content-Type": "application/json",
+      "Access-Control-Request-Headers": "Content-Type",
+      "Access-Control-Request-Method": "PUT",
+
     },
     credentials: "include",
     body: JSON.stringify(objInputs),
