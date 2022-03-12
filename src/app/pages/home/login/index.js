@@ -24,7 +24,7 @@ async function fazerLogin(e) {
     },
   });*/
 
-  let res = await fetch("https://git.heroku.com/bdmarketlist.git/auth", {
+  let res = await fetch("https://bdmarketlist.herokuapp.com/", {
       method: "POST",
       credentials: "include",
     headers: {
