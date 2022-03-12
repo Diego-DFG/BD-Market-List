@@ -20,8 +20,8 @@ async function fazerLogin(e) {
     method: "GET",
     credentials: "include",
     headers: {
-      'Content-Type': 'application/json'
-    }
+      "origin": "https://diego-dfg.github.io/BD-Market-List/#/",
+    },
   });
   if(res.ok) {
       let res = await fetch("https://git.heroku.com/bdmarketlist.git/auth", {
