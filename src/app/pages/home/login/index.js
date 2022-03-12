@@ -13,8 +13,7 @@ export default function Login() {
 async function fazerLogin(e) {
   e.preventDefault();
 
-  console.log(userName);
-  console.log(passWord);
+  console.log('teste');
 
   /*let res = await fetch("https://git.heroku.com/bdmarketlist.git/usuarios", {
     method: "GET",
