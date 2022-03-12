@@ -28,6 +28,7 @@ async function fazerLogin(e) {
       credentials: "include",
     headers: {
       "Origin": "https://diego-dfg.github.io",
+      "Content-Type": "application/json"
 
     },
       body: JSON.stringify({ usuario: userName, email: email, senha: passWord}),
