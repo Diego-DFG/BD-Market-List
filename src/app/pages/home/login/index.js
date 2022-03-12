@@ -28,8 +28,7 @@ async function fazerLogin(e) {
       method: "POST",
       credentials: "include",
     headers: {
-      "Origin": "https://diego-dfg.github.io/BD-Market-List/#/",
-      "Access-Control-Request-Headers": "Content-Type",
+      "Origin": "https://diego-dfg.github.io",
 
     },
       body: JSON.stringify({ usuario: userName, email: email, senha: passWord}),
