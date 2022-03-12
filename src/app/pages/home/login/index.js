@@ -25,12 +25,11 @@ async function fazerLogin(e) {
   });
   if(res.ok) {
       let res = await fetch("https://git.heroku.com/bdmarketlist.git/auth", {
-      method: "OPTIONS",
+      method: "POST",
       credentials: "include",
     headers: {
       "origin": "https://diego-dfg.github.io/BD-Market-List/#/",
       "Access-Control-Request-Headers": "Content-Type",
-      "Access-Control-Request-Method": "POST",
 
     },
       body: JSON.stringify({ usuario: userName, email: email, senha: passWord}),
