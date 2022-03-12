@@ -16,15 +16,15 @@ async function fazerLogin(e) {
   console.log(userName);
   console.log(passWord);
 
-  let res = await fetch("https://git.heroku.com/bdmarketlist.git/usuarios", {
+  /*let res = await fetch("https://git.heroku.com/bdmarketlist.git/usuarios", {
     method: "GET",
     credentials: "include",
     headers: {
       "origin": "https://diego-dfg.github.io/BD-Market-List/#/",
     },
-  });
-  if(res.ok) {
-      let res = await fetch("https://git.heroku.com/bdmarketlist.git/auth", {
+  });*/
+
+  let res = await fetch("https://git.heroku.com/bdmarketlist.git/auth", {
       method: "POST",
       credentials: "include",
     headers: {
@@ -34,6 +34,9 @@ async function fazerLogin(e) {
     },
       body: JSON.stringify({ usuario: userName, email: email, senha: passWord}),
     });
+
+  if(res.ok) {
+      
     if(res.ok) {
       console.log(res);
       const url = 'https://diego-dfg.github.io/BD-Market-List/#/principal'
