@@ -24,6 +24,7 @@ async function criaLista() {
   let res = await fetch("https://bdmarketlist.herokuapp.com/cria", {
     method: "PUT",
     headers: {
+      "Origin": "https://diego-dfg.github.io/BD-Market-List/#/",
       "Content-Type": "application/json",
     },
     credentials: "include",
