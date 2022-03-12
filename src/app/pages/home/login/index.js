@@ -24,7 +24,7 @@ async function fazerLogin(e) {
     },
   });*/
 
-  let res = await fetch("https://bdmarketlist.herokuapp.com/", {
+  let res = await fetch("https://bdmarketlist.herokuapp.com/auth", {
       method: "POST",
       credentials: "include",
     headers: {
