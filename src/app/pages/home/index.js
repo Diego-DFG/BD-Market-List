@@ -149,10 +149,11 @@ export default function Home() {
 
         
 
-        fetch('http://localhost:3000/', {
+        fetch('https://bdmarketlist.herokuapp.com/', {
             method: "GET",
             credentials: "include",
             headers: {
+                "Origin": "https://diego-dfg.github.io",
                 "Content-Type": "application/json",
             },
         })

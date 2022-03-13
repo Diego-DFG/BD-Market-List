@@ -12,10 +12,10 @@ export default function ListaDeCompras({mostraFormulario}) {
           
         console.log(event.target.id);
 
-        let res = await fetch("https://git.heroku.com/bdmarketlist.git/apaga", {
+        let res = await fetch("https://bdmarketlist.herokuapp.com/apaga", {
             method: "DELETE",
             headers: {
-            "Origin": "https://diego-dfg.github.io/BD-Market-List/#/",
+            "Origin": "https://diego-dfg.github.io",
             "Content-Type": "application/json",
             },
             credentials: "include",
