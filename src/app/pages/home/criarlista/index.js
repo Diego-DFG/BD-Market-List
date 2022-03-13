@@ -22,7 +22,7 @@ async function criaLista() {
   formProduto.focus();
 
   let res = await fetch("https://bdmarketlist.herokuapp.com/cria", {
-    method: "PUT",
+    method: "POST",
     headers: {
       "Origin": "https://diego-dfg.github.io",
       "Content-Type": "application/json",
