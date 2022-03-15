@@ -34,6 +34,7 @@ import ice_tea from '../../../img/ice_tea.jpeg';
 import leite_desnatado from '../../../img/leite_desnatado.jpeg';
 import mate from '../../../img/mate.jpeg';
 import manteiga from '../../../img/manteiga.jpg';
+import meia from '../../../img/meia.jpg';
 import molho_de_tomate from '../../../img/molho_de_tomate.jpeg';
 import oleo_de_soja from '../../../img/oleo_de_soja.jpeg';
 import ovo from '../../../img/ovo.jpeg';
@@ -96,6 +97,7 @@ export default function Home() {
         { nome: 'Leite desnatado', img: leite_desnatado },
         { nome: 'Mate', img: mate },
         { nome: 'Manteiga', img: manteiga },
+        { nome: 'Meia', img: meia },
         { nome: 'Molho de tomate', img: molho_de_tomate },
         { nome: 'Oleo de soja', img: oleo_de_soja },
         { nome: 'Ovo', img: ovo },
