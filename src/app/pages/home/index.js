@@ -21,7 +21,9 @@ import cebola from '../../../img/cebola.jpeg';
 import cenoura from '../../../img/cenoura.jpeg';
 import coca_cola from '../../../img/coca_cola.jpeg';
 import creme_de_leite from '../../../img/creme_de_leite.jpeg';
-import creme_dental from '../../../img/creme_dental.jpeg';
+import pao from '../../../img/pao.jpg';
+import preservativo from '../../../img/preservativo.jpg';
+import pasta_de_dente from '../../../img/creme_dental.jpeg';
 import desinfetante from '../../../img/desinfetante.jpeg';
 import detergente from '../../../img/detergente.jpeg';
 import esponja from '../../../img/esponja.jpeg';
@@ -31,6 +33,7 @@ import galao_de_agua from '../../../img/galao.jpeg';
 import ice_tea from '../../../img/ice_tea.jpeg';
 import leite_desnatado from '../../../img/leite_desnatado.jpeg';
 import mate from '../../../img/mate.jpeg';
+import manteiga from '../../../img/manteiga.jpg';
 import molho_de_tomate from '../../../img/molho_de_tomate.jpeg';
 import oleo_de_soja from '../../../img/oleo_de_soja.jpeg';
 import ovo from '../../../img/ovo.jpeg';
@@ -81,7 +84,8 @@ export default function Home() {
         { nome: 'Cenoura', img: cenoura },
         { nome: 'Coca cola', img: coca_cola },
         { nome: 'Creme de leite', img: creme_de_leite },
-        { nome: 'Creme dental', img: creme_dental },
+        { nome: 'Preservativo', img: preservativo },
+        { nome: 'Pasta de dente', img: pasta_de_dente },
         { nome: 'Desinfetante', img: desinfetante },
         { nome: 'Detergente', img: detergente },
         { nome: 'Esponja', img: esponja },
@@ -91,9 +95,11 @@ export default function Home() {
         { nome: 'Ice tea', img: ice_tea },
         { nome: 'Leite desnatado', img: leite_desnatado },
         { nome: 'Mate', img: mate },
+        { nome: 'Manteiga', img: manteiga },
         { nome: 'Molho de tomate', img: molho_de_tomate },
         { nome: 'Oleo de soja', img: oleo_de_soja },
         { nome: 'Ovo', img: ovo },
+        { nome: 'Pão', img: pao },
         { nome: 'Pão Australiano', img: pao_australiano },
         { nome: 'Pão de forma', img: pao_forma },
         { nome: 'Pão de queijo', img: pao_de_queijo },
