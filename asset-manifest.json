@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BD-Market-List/static/css/main.f4d444e2.css",
+    "main.css": "/BD-Market-List/static/css/main.e233c0e9.css",
     "main.js": "/BD-Market-List/static/js/main.2c819a0b.js",
     "static/media/img_00.jpeg": "/BD-Market-List/static/media/img_00.ee14129c29c0796bdec6.jpeg",
     "static/media/creme_dental.jpeg": "/BD-Market-List/static/media/creme_dental.1022f35839bbafae1856.jpeg",
@@ -11,11 +11,11 @@
     "static/media/pizza.jpeg": "/BD-Market-List/static/media/pizza.db89574d9fcde577a01c.jpeg",
     "static/media/filtro_papel.jpeg": "/BD-Market-List/static/media/filtro_papel.491d075adae3fadb2217.jpeg",
     "index.html": "/BD-Market-List/index.html",
-    "main.f4d444e2.css.map": "/BD-Market-List/static/css/main.f4d444e2.css.map",
+    "main.e233c0e9.css.map": "/BD-Market-List/static/css/main.e233c0e9.css.map",
     "main.2c819a0b.js.map": "/BD-Market-List/static/js/main.2c819a0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4d444e2.css",
+    "static/css/main.e233c0e9.css",
     "static/js/main.2c819a0b.js"
   ]
 }
