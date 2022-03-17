@@ -36,6 +36,7 @@
 }
 
 .btn-deletar {
+    margin-left: 0.5rem;
     background-color: var(--vermelho);
 }
 
