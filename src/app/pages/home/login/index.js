@@ -41,6 +41,8 @@ async function fazerLogin(e) {
       const url = 'https://diego-dfg.github.io/BD-Market-List/#/principal'
       console.log(url);
       window.location = url;
+      const load = document.querySelector('.load');
+      load.style.display = 'block';
     } else {
       const usuarioSenhaIncorreta = document.querySelector('.senha_incorreta');
       usuarioSenhaIncorreta.style.display = "block";
@@ -72,6 +74,7 @@ async function fazerLogin(e) {
                     <div className='senha_incorreta'>
                         <p>Usuário ou senha incorretos!</p>
                     </div>
+                    <div className='load'>Carregando...</div>
                     <div>
                         <button type='submit'>Entrar</button>
                     </div>

@@ -15,6 +15,7 @@ import batata_inglesa from '../../../img/batata_inglesa.jpeg';
 import berinjela from '../../../img/berinjela.jpeg';
 import biscoito_maisena from '../../../img/biscoito_maisena.jpeg';
 import biscoito_rosquinha from '../../../img/biscoito_rosquinha.jpeg';
+import polvilho from '../../../img/polvilho.jpg';
 import cafe from '../../../img/cafe.jpeg';
 import carne from '../../../img/carne.jpeg';
 import cebola from '../../../img/cebola.jpeg';
@@ -79,6 +80,7 @@ export default function Home() {
         { nome: 'Berinjela', img: berinjela },
         { nome: 'Biscoito maisena', img: biscoito_maisena },
         { nome: 'Biscoito rosquinha', img: biscoito_rosquinha },
+        { nome: 'Biscoito polvilho', img: polvilho },
         { nome: 'Café', img: cafe },
         { nome: 'Carne', img: carne },
         { nome: 'Cebola', img: cebola },

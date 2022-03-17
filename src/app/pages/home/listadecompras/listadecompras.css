@@ -11,7 +11,7 @@
 
 .body .tabela_cabecalho div, .body .tabela_conteudo div {
     color: #000000;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
 }
 
 .body .tabela_conteudo-div div {

@@ -58,6 +58,14 @@
     text-align: center;
 }
 
+.load {
+    display: none;
+    text-align: center;
+    color: var(--azul-escuro);
+    font-size: 14px;
+    font-weight: bold;
+}
+
 form {
     margin: 0 auto;
 }
