@@ -26,6 +26,12 @@
     border-bottom: 1px solid rgba(0,0,0,0.09);
 }
 
+.tabela_descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
     .body .tabela_conteudo-div div {
         display: flex;

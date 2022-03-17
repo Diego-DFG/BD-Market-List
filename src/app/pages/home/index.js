@@ -216,7 +216,7 @@ export default function Home() {
                                     <img class="arrayImgRender" src="${img.img}" />
                                 </div>   
                                  <div>${dataFormatada}</div>
-                                 <div>${dado.produto}</div>
+                                 <div class="tabela_descricao">${dado.produto}</div>
                                  <div>${dado.quantidade}</div>
                                  <div class="div_btn">
                                      <button id="${dado.id}" class="btn btn-deletar">Deletar</button>
