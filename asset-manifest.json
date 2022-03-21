@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BD-Market-List/static/css/main.4cf7d7d7.css",
-    "main.js": "/BD-Market-List/static/js/main.97e3035b.js",
+    "main.js": "/BD-Market-List/static/js/main.bed12974.js",
     "static/media/desodorante_masculino.jpg": "/BD-Market-List/static/media/desodorante_masculino.ddd250bf71cfcebba789.jpg",
     "static/media/img_00.jpeg": "/BD-Market-List/static/media/img_00.ee14129c29c0796bdec6.jpeg",
     "static/media/creme_dental.jpeg": "/BD-Market-List/static/media/creme_dental.1022f35839bbafae1856.jpeg",
@@ -13,10 +13,10 @@
     "static/media/filtro_papel.jpeg": "/BD-Market-List/static/media/filtro_papel.491d075adae3fadb2217.jpeg",
     "index.html": "/BD-Market-List/index.html",
     "main.4cf7d7d7.css.map": "/BD-Market-List/static/css/main.4cf7d7d7.css.map",
-    "main.97e3035b.js.map": "/BD-Market-List/static/js/main.97e3035b.js.map"
+    "main.bed12974.js.map": "/BD-Market-List/static/js/main.bed12974.js.map"
   },
   "entrypoints": [
     "static/css/main.4cf7d7d7.css",
-    "static/js/main.97e3035b.js"
+    "static/js/main.bed12974.js"
   ]
 }
