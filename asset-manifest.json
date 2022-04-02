@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BD-Market-List/static/css/main.4cf7d7d7.css",
-    "main.js": "/BD-Market-List/static/js/main.8dfabb5c.js",
+    "main.js": "/BD-Market-List/static/js/main.2f9ea90b.js",
     "static/media/desodorante_masculino.jpg": "/BD-Market-List/static/media/desodorante_masculino.ddd250bf71cfcebba789.jpg",
     "static/media/img_00.jpeg": "/BD-Market-List/static/media/img_00.ee14129c29c0796bdec6.jpeg",
     "static/media/creme_dental.jpeg": "/BD-Market-List/static/media/creme_dental.1022f35839bbafae1856.jpeg",
@@ -10,17 +10,19 @@
     "static/media/acucar_refinado.jpeg": "/BD-Market-List/static/media/acucar_refinado.e9e8fe94cd780c086c84.jpeg",
     "static/media/pao_italiano.jpeg": "/BD-Market-List/static/media/pao_italiano.d4c844995ced84b38d94.jpeg",
     "static/media/assa_facil.jpeg": "/BD-Market-List/static/media/assa_facil.349962160fc1a025ed99.jpeg",
+    "static/media/milho_pipoca.jpg": "/BD-Market-List/static/media/milho_pipoca.23baee55240ec12e02f0.jpg",
     "static/media/sabonete.jpeg": "/BD-Market-List/static/media/sabonete.cfdd9a3c65b5a6f40a57.jpeg",
     "static/media/pizza.jpeg": "/BD-Market-List/static/media/pizza.db89574d9fcde577a01c.jpeg",
     "static/media/filtro_papel.jpeg": "/BD-Market-List/static/media/filtro_papel.491d075adae3fadb2217.jpeg",
     "static/media/inspira_antimofo.jpg": "/BD-Market-List/static/media/inspira_antimofo.07fa195786af3fbd2c2e.jpg",
+    "static/media/shampoo_anti_caspa.jpg": "/BD-Market-List/static/media/shampoo_anti_caspa.e3de1a7b3b5b71f02f94.jpg",
     "static/media/cha_preto.jpg": "/BD-Market-List/static/media/cha_preto.78453feb11deffd4a580.jpg",
     "index.html": "/BD-Market-List/index.html",
     "main.4cf7d7d7.css.map": "/BD-Market-List/static/css/main.4cf7d7d7.css.map",
-    "main.8dfabb5c.js.map": "/BD-Market-List/static/js/main.8dfabb5c.js.map"
+    "main.2f9ea90b.js.map": "/BD-Market-List/static/js/main.2f9ea90b.js.map"
   },
   "entrypoints": [
     "static/css/main.4cf7d7d7.css",
-    "static/js/main.8dfabb5c.js"
+    "static/js/main.2f9ea90b.js"
   ]
 }
