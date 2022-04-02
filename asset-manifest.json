@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BD-Market-List/static/css/main.4cf7d7d7.css",
-    "main.js": "/BD-Market-List/static/js/main.c1e73f4a.js",
+    "main.js": "/BD-Market-List/static/js/main.c73b40d1.js",
     "static/media/desodorante_masculino.jpg": "/BD-Market-List/static/media/desodorante_masculino.ddd250bf71cfcebba789.jpg",
     "static/media/img_00.jpeg": "/BD-Market-List/static/media/img_00.ee14129c29c0796bdec6.jpeg",
     "static/media/creme_dental.jpeg": "/BD-Market-List/static/media/creme_dental.1022f35839bbafae1856.jpeg",
@@ -19,10 +19,10 @@
     "static/media/cha_preto.jpg": "/BD-Market-List/static/media/cha_preto.78453feb11deffd4a580.jpg",
     "index.html": "/BD-Market-List/index.html",
     "main.4cf7d7d7.css.map": "/BD-Market-List/static/css/main.4cf7d7d7.css.map",
-    "main.c1e73f4a.js.map": "/BD-Market-List/static/js/main.c1e73f4a.js.map"
+    "main.c73b40d1.js.map": "/BD-Market-List/static/js/main.c73b40d1.js.map"
   },
   "entrypoints": [
     "static/css/main.4cf7d7d7.css",
-    "static/js/main.c1e73f4a.js"
+    "static/js/main.c73b40d1.js"
   ]
 }
